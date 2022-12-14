@@ -1,4 +1,4 @@
-# ProyectoEntornoDefinitivo
+# ProyectoEntornosDefinitivo
 Bienvenidos a nuestro proyecto de Entornos de Desarrollo en el que llevaremos a cabo en grupo la realización de los siguientes programas
 
 o	Ordenar un Array de menor a mayor -SERGIO
