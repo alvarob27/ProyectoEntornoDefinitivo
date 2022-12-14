@@ -1,5 +1,6 @@
 package entornos;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
 public class ProyectoEntornos {
@@ -42,4 +43,13 @@ public class ProyectoEntornos {
 			if(i==1)System.out.print(" = "+mult);
 			}
 	}
+=======
+public class ProyectoEntornos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+>>>>>>> refs/heads/master
 }
