@@ -12,6 +12,7 @@ public class ProyectoEntornos {
 		repetirLetra();	
 			factorial();
 			array();
+			tiempo();
 			System.out.println("La letra se repite "+ codigo() + " veces");
 			
 
@@ -74,12 +75,11 @@ public class ProyectoEntornos {
 		
 		//Numero  de ocurrencias
 	    public static int codigo () {
-
 	        System.out.println("Introduce una frase: ");
 
 	        String respuesta = entrada.nextLine();
 	        respuesta.toLowerCase();
-
+	        System.out.println();
 	        System.out.print("La letra que quieres buscar:");
 
 	        String letra = entrada.next();
@@ -98,8 +98,18 @@ public class ProyectoEntornos {
 
 	        return contador;
 	    }
+		//Tiempo codigo hecho por Jorge Diez y commit hecho por Juan Querol.
+		public static void tiempo() {
+			int num,hora,min,seg;
+	        System.out.println("Ingrese los segundos ");
+	        num=sc.nextInt();
+	        
+	        hora=num/3600;
+	        min=(num-(3600*hora))/60;
+	        seg=num-((hora*3600)+(min*60));
+	        
+	        System.out.println(hora+"h "+min+"m "+seg+"s");
+		}
 	    
 	}
 
-		
-		
