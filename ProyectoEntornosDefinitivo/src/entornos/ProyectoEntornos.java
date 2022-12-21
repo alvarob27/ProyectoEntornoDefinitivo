@@ -8,6 +8,7 @@ public class ProyectoEntornos {
 		
 		repetirLetra();	
 		factorial();
+		tiempo();
 		
 		System.out.println("Introduce una frase: ");
 		
@@ -73,5 +74,17 @@ public class ProyectoEntornos {
 
 
 		}
+	//Tiempo codigo hecho por Jorge Diez y commit hecho por Juan Querol.
+	public static void tiempo() {
+		int num,hora,min,seg;
+        System.out.println("ingrese los segundos ");
+        num=sc.nextInt();
+        
+        hora=num/3600;
+        min=(num-(3600*hora))/60;
+        seg=num-((hora*3600)+(min*60));
+        
+        System.out.println(hora+"h "+min+"m "+seg+"s");
+	}
 	}
 	
