@@ -1,12 +1,18 @@
 package entornos;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
-
+	
 public class ProyectoEntornos {
 	static Scanner sc=new Scanner (System.in);
 	public static void main(String[] args) {
 		repetirLetra();	
 		factorial();
+		array();
+	
+		
+		
 		
 	}	
 	
@@ -42,4 +48,23 @@ public class ProyectoEntornos {
 			if(i==1)System.out.print(" = "+mult);
 			}
 	}
-}
+	public static void array() {
+		System.out.println();
+		System.out.println("Introduce el numero máximo de posiciones del array: ");
+		int entradaUsuario = sc.nextInt();
+		
+		int[] arrayUsuario = new int [entradaUsuario];
+		
+		for (int i = 0; i < arrayUsuario.length; i++) {
+			arrayUsuario[i] = (int) (Math.random()*10);
+			System.out.println(arrayUsuario[i]);
+			
+		}
+		
+		
+		Arrays.sort(arrayUsuario);
+		System.out.println(Arrays.toString(arrayUsuario));
+	}
+	
+		
+	}
