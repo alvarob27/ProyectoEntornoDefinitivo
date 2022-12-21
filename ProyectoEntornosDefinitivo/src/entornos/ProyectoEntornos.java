@@ -1,7 +1,9 @@
 package entornos;
 
-public class ProyectoEntornos {
+import java.util.Scanner;
 
+public class ProyectoEntornos {
+	static Scanner sc=new Scanner (System.in);
 	public static void main(String[] args) {
 		
 		repetirLetra();	
@@ -19,6 +21,7 @@ public class ProyectoEntornos {
 		
 		System.out.println("La letra se repite "+ codigo(respuesta, letra) + " veces");
 		
+
 	}	
 	
 	//Dado un String, repetir cada ocurrencia de su letra.
@@ -29,7 +32,6 @@ public class ProyectoEntornos {
 			char letra=entrada.charAt(i);
 			complete+=letra;
 			complete+=letra;
-
 		}
 		System.out.println(complete);
 	}
@@ -69,6 +71,7 @@ public class ProyectoEntornos {
 			
 			return contador;
 
-	}
 
-}
+		}
+	}
+	
